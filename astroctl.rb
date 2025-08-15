@@ -3,7 +3,7 @@ class Astroctl < Formula
   homepage "https://github.com/astropulseinc/astroctl"
   url "https://storage.googleapis.com/astroctl-cli/astroctl-darwin.amd64.tar.gz"
   version "0.0.41"
-  sha256 "87e1f997026d9df50bec5c9489fb8661139d8b9946621806a796a7b789424883"
+  sha256 "53935117b8d810cd768a123d99853bca9cc371335f262c9539d18e87fbe44704"
   license "MIT"
 
   livecheck do
@@ -13,7 +13,7 @@ class Astroctl < Formula
 
   on_arm do
     url "https://storage.googleapis.com/astroctl-cli/astroctl-darwin.arm64.tar.gz"
-    sha256 "6c67be5f8161dabcc41e3c33afc6a465f832da09330558b4edffd0979207499b"
+    sha256 "435456b3750eafbb88a5d537102cc6f71eeefa82a7973c9aa339f434f3fe4b80"
   end
 
   def install
