@@ -2,7 +2,7 @@ class Astroctl < Formula
   desc "Command-line interface for Astropulse"
   homepage "https://github.com/astropulseinc/astroctl"
   url "https://storage.googleapis.com/astroctl-cli/astroctl-darwin.amd64.tar.gz"
-  version "0.0.41"
+  version "0.0.84"
   sha256 "53935117b8d810cd768a123d99853bca9cc371335f262c9539d18e87fbe44704"
   license "MIT"
 
