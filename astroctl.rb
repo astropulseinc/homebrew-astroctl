@@ -2,8 +2,8 @@ class Astroctl < Formula
   desc "Command-line interface for Astropulse"
   homepage "https://github.com/astropulseinc/astroctl"
   url "https://storage.googleapis.com/astroctl-cli/astroctl-darwin.amd64.tar.gz"
-  version "0.0.135"
-  sha256 "5a2e54e795d0146624c2cce721aa0095b73a933fe82ccee1268ba9ca969e106d"
+  version "0.0.141"
+  sha256 "fef825446bb1fbf3dcbd68bb2f23ff3f0d17ff1199a3d5d07cdfb51aa218f630"
   license "MIT"
 
   livecheck do
@@ -13,7 +13,7 @@ class Astroctl < Formula
 
   on_arm do
     url "https://storage.googleapis.com/astroctl-cli/astroctl-darwin.arm64.tar.gz"
-    sha256 "39fe99647c0df395b593a9743a9b413ce8640ee776da513d3354825cca907fa0"
+    sha256 "12786b9da0bdc5e1d8f79b5260749215970c4b3e6216ad2f357fce8238d0dbe3"
   end
 
   def install
