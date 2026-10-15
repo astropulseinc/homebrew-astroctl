@@ -18,9 +18,12 @@ class Astroctl < Formula
 
   def install
     bin.install "astroctl"
+    # Nova's terminal renderer; archives published before it shipped don't contain it.
+    bin.install "nova-tui" if File.exist?("nova-tui")
   end
 
   test do
     assert_match "astroctl version", shell_output("#{bin}/astroctl --version")
+    assert_predicate bin/"nova-tui", :executable? if (bin/"nova-tui").exist?
   end
 end 
